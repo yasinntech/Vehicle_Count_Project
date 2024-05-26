@@ -1,0 +1,6 @@
+tracker_type: bytetrack # takipçi tipi, ['botsort', 'bytetrack']
+track_high_thresh: 0.5 # ilk ilişkilendirme için eşik
+track_low_thresh: 0.1 # ikinci ilişkilendirme için eşik
+new_track_thresh: 0.6 # eğer tespit herhangi bir takiple eşleşmezse yeni takip başlatmak için eşik
+track_buffer: 30 # takipleri kaldırma zamanını hesaplamak için tampon
+match_thresh: 0.8 # takipleri eşleştirmek için eşik
